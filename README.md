@@ -1,6 +1,8 @@
 chitter
 =======
-This script can be used if you have a list of recepients, which need to be allocated some piece of information (say a unique code). A bit IITB specific, but can be adopted to suit your purpose with minimal modifications to sendChits.py. 
+This script can be used if you have a list of recepients, a list of codes, and you want to send each receipient "r" a code "c". A bit IITB specific, but can be adopted to suit your purpose with minimal modifications to sendChits.py. 
+
+Apart from that, the script is fairly general and can be used to share discount codes, room allocation and so on.
 
 ###Usage
 python sendChits.py attendeesFile chitsFile
