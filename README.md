@@ -24,7 +24,7 @@ maildegs.py stores all the global configuration information
 '''  
 Global def  
 '''  
-senderEmail = ''   #sender's email, should be left blank
-senderName = 'Tarun Jain'  
-eventName = 'test event'   #the event
-emailSubject = 'Chitcode for : ' + eventName   #Modify to suit your purpose
+senderEmail = ''   #sender's email, should be left blank  
+senderName = 'Tarun Jain'    
+eventName = 'test event'   #the event   
+emailSubject = 'Chitcode for : ' + eventName   #Modify to suit your purpose  
