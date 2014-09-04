@@ -21,12 +21,10 @@ Black
 ###Configuration
 maildegs.py stores all the global configuration information
   
-<code>  
 '''  
 Global def  
 '''  
-senderEmail = ''  
+senderEmail = ''   #sender's email, should be left blank
 senderName = 'Tarun Jain'  
-eventName = 'test event'   
-emailSubject = 'Chitcode for : ' + eventName    
-</code>  
+eventName = 'test event'   #the event
+emailSubject = 'Chitcode for : ' + eventName   #Modify to suit your purpose
