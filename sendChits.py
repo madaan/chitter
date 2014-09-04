@@ -61,8 +61,8 @@ def sendChits(attendeesFile, chitCodesFile):
         sys.exit(0)
 
     for i, attendee in enumerate(attendees):
-        #toaddrs = attendees[i].split(",")[1] + '@iitb.ac.in'
-        toaddrs = '133050004@iitb.ac.in'
+        toaddrs = attendees[i].split(",")[1] + '@iitb.ac.in'
+        #toaddrs = '133050004@iitb.ac.in'
         toname = attendees[i].split(",")[0]
         chitCode = chitCodes[i]
         msg = makeMsg(toname, chitCode)
