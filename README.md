@@ -8,25 +8,25 @@ Apart from that, the script is fairly general and can be used to share discount 
 python sendChits.py attendeesFile chitsFile
 
 #####attendeesFile format :
-Username,IITB RollNumber
-Eg.
-Aman Madaan, 13305004
+Username,IITB RollNumber  
+Eg.  
+Aman Madaan, 13305004  
 
 #####chitsFile format :
-One chit (information to be distributed on each line)
-Eg.
-Yellow
-Black
+One chit (information to be distributed on each line)  
+Eg.  
+Yellow  
+Black  
 
 ###Configuration
 maildegs.py stores all the global configuration information
 
 <code>
 '''  
-Global def  
-'''   
-senderEmail = ''  
-senderName = 'Tarun Jain'  
-eventName = 'test event'  
-emailSubject = 'Chitcode for : ' + eventName  
-</code>
+Global def   
+'''     
+senderEmail = ''    
+senderName = 'Tarun Jain'    
+eventName = 'test event'    
+emailSubject = 'Chitcode for : ' + eventName    
+</code>  
